@@ -7,20 +7,135 @@
     <link rel="stylesheet" href="./css/style.css" />
   </head>
   <body>
-    <nav>
-      <div class="nav-left">
-        <img src="./assets/Clarusway_Logo.png" alt="logo" />
+    <nav class="nav">
+      <div class="nav__left">
+        <img src="./assets/Clarusway_Logo.png" alt="logo" class="nav__logo" />
+        <i class="fa-solid fa bars fa2x"> </i>
       </div>
-      <div class="nav-right">
+      <div class="nav__right">
         <ul>
-          <li><a href="#home">Home</a></li>
-          <li><a href="#destinations">Destinations</a></li>
-          <li><a href="#about">About</a></li>
-          <li><a href="#partner">Partner</a></li>
-          <li><button>Login</button></li>
-          <li><button>Register</button></li>
+          <li><a href="#home" class="nav__right--home">Home</a></li>
+          <li>
+            <a href="#destinations" class="nav__right--others">Destinations</a>
+          </li>
+          <li><a href="#about" class="nav__right--others">About</a></li>
+          <li><a href="#partner" class="nav__right--others">Partner</a></li>
+          <li><button class="nav__right--login">Login</button></li>
+          <li><button class="nav__right--register">Register</button></li>
         </ul>
       </div>
     </nav>
+    <main>
+      <section class="home">
+        <div class="home__form">
+          <h2>Explore Travel</h2>
+          <h3>Holiday Finder</h3>
+          <hr />
+          <form action="">
+            <select name="" id="">
+              <option value="">Location</option></select
+            ><select name="" id="">
+              <option value="">Activity</option></select
+            ><select name="" id="">
+              <option value="">Grade</option></select
+            ><select name="" id="">
+              <option value="">Date</option>
+            </select>
+          </form>
+          <button class="home__form--button">Explore</button>
+        </div>
+        <div class="home__img"></div>
+      </section>
+      <section class="about">
+        <div class="about__img"></div>
+        <div class="about__text">
+          <h2 class="about__text--header">A new way to explore the world</h2>
+          <p class="about__text--paragraph">
+            For decades travellers have reached for Lonely Planet books when
+            looking to plan and execute their perfect trip, but now, they can
+            also let Lonely Planet Experiences lead the way.
+          </p>
+          <button class="about__text--button">Learn More</button>
+        </div>
+      </section>
+      <section class="destinations">
+        <div class="destination__header">
+          <h3>Featured Destinations</h3>
+          <button>
+            <span>View all</span>
+            <svg
+              width="4"
+              height="9"
+              viewBox="0 0 6 11"
+              fill="none"
+              xmlns="http://www.w3.org/2000/svg"
+            >
+              <path
+                d="M1 1L5 5.5L1 10"
+                stroke="#FB8F1D"
+                stroke-width="2"
+                stroke-linecap="round"
+                stroke-linejoin="round"
+              />
+            </svg>
+          </button>
+        </div>
+        <div class="destinations__cardgroup">
+          <div class="destinations__card">
+            <img src="./assets/raja.jpg" loading="lazy" alt="" />
+            <p>
+              <span>Raja Ampat</span>
+              <span>Indenosia</span>
+            </p>
+          </div>
+          <div class="destinations__card">
+            <img src="./assets/Fanjingshan.jpg" loading="lazy" alt="" />
+            <p>
+              <span>Fanjingshan</span>
+              <span>China</span>
+            </p>
+          </div>
+          <div class="destinations__card">
+            <img src="./assets/Vevey.jpg" loading="lazy" alt="" />
+            <p>
+              <span>Vewey</span>
+              <span>Switzerland</span>
+            </p>
+          </div>
+          <div class="destinations__card">
+            <img src="./assets/Skadar.jpg" loading="lazy" alt="" />
+            <p>
+              <span>Skadar</span>
+              <span>Montenegro</span>
+            </p>
+          </div>
+        </div>
+      </section>
+      <section class="guide">
+        <div class="guide__text">
+          <h2 class="guide__text--header">Guides by Thousand Sunny</h2>
+          <p class="guide__text--paragraph">
+            Packed with tips and advice from our on-the-ground experts, our city
+            guides app (iOS and Android) is the ultimate resource before and
+            during a trip
+          </p>
+          <button class="guide__text--button">Download</button>
+          <div class="guide__img"></div>
+        </div>
+      </section>
+    </main>
+    <footer class="footer">
+      <div class="footer__icons">
+        <i class="fab fa-twitter fa-2x social1"></i>
+
+        <i class="fab fa-facebook fa-2x social2"></i>
+
+        <i class="fab fa-instagram fa-2x social3"></i>
+
+        <i class="fab fa-github fa-2x social4"></i>
+
+        <i class="fab fa-youtube fa-2x social5"></i>
+      </div>
+    </footer>
   </body>
 </html>
