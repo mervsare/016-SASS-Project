@@ -34,3 +34,18 @@
     @content;
   }
 }
+@mixin media-md {
+  @media only screen and (max-width: 769px) {
+    @content;
+  }
+}
+@mixin media-lg {
+  @media only screen and (max-width: 992px) {
+    @content;
+  }
+}
+@mixin media-xl {
+  @media only screen and (max-width: 1369px) {
+    @content;
+  }
+}

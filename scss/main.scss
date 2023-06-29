@@ -1,2 +1,19 @@
 @import "./base/reset";
-@import "./components/navbar";
+@import "./abstracts/variables", "./abstracts/mixin";
+@import "./components/footer", "./components/navbar", "./components/responsive";
+@import "./sections/home", "./sections/about", "./sections/destinations",
+  "./sections/guide";
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"); // Fontawesome
+@import url("https://fonts.googleapis.com/css2?family=Inter&family=Mulish&family=Playfair+Display&family=Rampart+One&display=swap"); //Google-Fonts
+
+body {
+  background-color: $mainColor;
+  position: relative;
+}
+button {
+  cursor: pointer;
+}
+a {
+  cursor: pointer;
+}

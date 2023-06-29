@@ -3,8 +3,6 @@
 
 # Project-008 : Sass Website Page Design
 
-
-
 ## Description
 
 Project aims to create website site using sass.
@@ -13,40 +11,40 @@ Project aims to create website site using sass.
 
 - Your company has recently started on a project that aims to create a company website page. So you and your colleagues have started to work on the project.
 
-## Project Skeleton 
+## Project Skeleton
 
 ```
 008-Sass-website-page-design (folder)
 |
-|----readme.md         # Given to the students (Definition of the project)          
-|----images            # Given to the students (Images of the project)   
+|----readme.md         # Given to the students (Definition of the project)
+|----images            # Given to the students (Images of the project)
 |----solution
-        |----index.html  
-        |----css (folder)   
-              |----style.css  
-              |----style.css.map  
-        |----scss (folder)   
-              |----abstracts (folder) 
-                    |----_mixin.scss 
-                    |----_variables.scss 
-              |----base (folder) 
-                    |----_reset.scss               
-              |----components (folder) 
-                    |----_footer.scss 
-                    |----_navbar.scss 
-                    |----_responsive.scss 
-              |----sections (folder) 
-                    |----_about.scss 
-                    |----_destination.scss 
-                    |----_home.scss 
-                    |----_guide.scss 
-              |----main.scss  
+        |----index.html
+        |----css (folder)
+              |----style.css
+              |----style.css.map
+        |----scss (folder)
+              |----abstracts (folder)
+                    |----_mixin.scss
+                    |----_variables.scss
+              |----base (folder)
+                    |----_reset.scss
+              |----components (folder)
+                    |----_footer.scss
+                    |----_navbar.scss
+                    |----_responsive.scss
+              |----sections (folder)
+                    |----_about.scss
+                    |----_destination.scss
+                    |----_home.scss
+                    |----_guide.scss
+              |----main.scss
         |----assets (folder)
 ```
 
 ## Expected Outcome
 
-![Project  Snapshot](./Sass.gif) 
+![Project  Snapshot](./Sass.gif)
 
 ## Objective
 
@@ -54,7 +52,7 @@ Make a web page like in the [example project](https://scss-projects.vercel.app/)
 
 ### At the end of the project, following topics are to be covered;
 
-- HTML 
+- HTML
 
 - Js
 
@@ -68,27 +66,25 @@ Make a web page like in the [example project](https://scss-projects.vercel.app/)
 
 - use git commands (push, pull, commit, add etc.) and Github as Version Control System.
 
-## Steps to Solution 
+## Steps to Solution
 
-- Step 1: Download or clone project repo on Github 
+- Step 1: Download or clone project repo on Github
 
 - Step 2: Create project folder for local public repo on your pc
 
 - Step 3: Create Sass Website.
 
->>Part-1 HTML Structure
+> > Part-1 HTML Structure
 
-	- Creat structure of the HTML5
-	- Give name of your project (title)
-	- Create the main structur of the HTML
+    - Creat structure of the HTML5
+    - Give name of your project (title)
+    - Create the main structur of the HTML
 
->>Part-2 Sass / Scss Structure
+> > Part-2 Sass / Scss Structure
 
-	- Set a background
-	- Set color and margin etc..
-	- Define others color-size-padding etc with scss
-
-  
+    - Set a background
+    - Set color and margin etc..
+    - Define others color-size-padding etc with scss
 
 - Step 3: Push your application into your own public repo on Github
 
@@ -100,7 +96,6 @@ Make a web page like in the [example project](https://scss-projects.vercel.app/)
 
 ## Resources
 
--  [Images](./assets)
-
+- [Images](./assets)
 
 <p align="center"> ⌛<strong> Happy Coding </strong> ✍ </p>

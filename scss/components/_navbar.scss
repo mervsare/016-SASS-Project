@@ -1,7 +1,43 @@
-nav {
-  display: flex;
-  justify-content: space-between;
-  img {
-    width: 5rem;
+.nav {
+  @include flexMix(flex, space-between);
+  padding: 1rem 6rem;
+  i {
+    display: none;
+  }
+  &__logo {
+    width: 50px;
+  }
+  &__right {
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+    li {
+      padding-right: 0.5rem;
+    }
+
+    &--home {
+      color: $headerColor;
+      text-decoration: none;
+      @include fontMix(Inter, normal, 500, 1rem, 19px);
+    }
+    &--others {
+      @extend .nav__right--home;
+      color: #b8becd;
+      font-weight: 400;
+    }
+    &--login {
+      background-color: $mainColor;
+      border: 1px solid $buttonBorderColor;
+      border-radius: 8px;
+      @include fontMix(Inter, normal, 500, 1rem, 30px);
+      color: $buttonColor;
+      width: 90px;
+    }
+    &--register {
+      @extend .nav__right--login;
+      border: none;
+      background-color: $buttonColor;
+      color: $mainColor;
+    }
   }
 }
